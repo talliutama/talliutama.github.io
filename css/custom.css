@@ -1,0 +1,123 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Lato', sans-serif;
+}
+.btn-view {
+  border: 1px solid white;
+  background: rgba(255,255,255,0.3);
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.btn-view:hover {
+  color: white;
+  text-decoration: none;
+}
+.btn-contact, .btn-contact:hover {
+  /*border-bottom: 5px solid rgba(25, 112, 91, 0.4);*/
+  padding: 60px 60px;
+  font-size: 35px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  /*border-radius: 3px;*/
+  /*width: 400px;*/
+  /*margin: 80px auto;*/
+  display: block;
+  text-decoration: none;
+}
+.btn-contact:hover {
+  opacity: 0.5;
+}
+.btn-view.portfolio {
+  border: 1px solid #ADADAD;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 5px 30px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.btn-view.portfolio:hover {
+  background: rgba(255,255,255,1.0);
+  color: #4ebaa0;
+  font-weight: 500;
+}
+
+.featured-bg {
+	width: 100%;
+	height: 450px;
+	background-size: 100%;
+	background-image: url("../pics/cin1.jpg");
+  z-index: -2;
+  position: relative;
+}
+.featured-bg:after {
+  content: "";
+  width: 100%;
+  background: rgba(25, 112, 91, 0.6);
+  height: 450px;
+  position:absolute;
+  z-index: -1;
+}
+.featured-content {
+  margin-top: -420px;
+  margin-bottom: 100px;
+  z-index: -3;
+  color: black;
+  text-align: center;
+}
+
+.featured h1 {
+  font-size: 60px;
+  margin: 120px 0 0 0;
+  font-weight: 900;
+}
+.featured h2 {
+  margin: 10px 0 50px 0;
+}
+
+.content {
+  padding: 30px 0;
+}
+
+.content.quote {
+  text-align: center;
+  padding: 70px 0 50px 0;
+}
+.content.quote h2 {
+  font-weight: 100;
+  font-size: 50px;
+}
+.content.portfolio {
+  text-align: center;
+}
+.content.portfolio h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.content.portfolio a {
+  display:inline-block;
+}
+.content.portfolio img {
+  margin-right: -4px;
+}
+.content.portfolio #collage a:hover .desc {
+  visibility: visible;
+  opacity: 1;
+}
+.content.portfolio .desc {
+  opacity: 0;
+  visibility: hidden;
+  position:absolute;
+  height: 300px;
+  width: 300px;
+  background: rgba(0,0,0,0.8);
+  margin-top: -300px;
+}
+.content.portfolio .desc p {
+  color: #4EBAA0;
+  padding: 120px 20px 30px 20px;
+  font-size: 15px;
+  font-weight: 400;
+}

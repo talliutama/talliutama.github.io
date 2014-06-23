@@ -1,0 +1,577 @@
+@media (max-width: 600px) {
+	div.carousel-inner h1 {
+		font-size: 35px;
+	}
+	div.header div.col-md-4.col-xs-3 a {
+		display: none;
+	}
+}
+::selection {
+	background: #43aaa3;
+	color: #fff;
+}
+.header a {
+	font-size: 11px;
+	color: white;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.header a:hover {
+	color:#43aaa3;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+div.header div.col-xs-3.col-md-4 {
+	text-align: left;
+	color: white;
+}
+.header {
+	padding-top: 25px;
+	margin-top: 0px;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	background-color: black;
+	font-size: 13px;
+	z-index: 10000;
+	opacity: 0.8;
+	text-align: center;
+}
+div.header img {
+	margin-top: -10px;
+	margin-left: 20px;
+	padding-right: 20px;
+	height: 40px;
+}
+div.header div.col-md-4.col-xs-3 a {
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+	opacity: 1.0;
+}
+div.header div.col-md-4.col-xs-3 a:hover {
+	color:#43aaa3;
+	font-weight: 800;
+	text-decoration: none;
+}
+.featured {
+	height: 500px;
+	width:100%;
+}
+.featured-bg {
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-image: url("../pics/bg1.jpg");
+	opacity: 1.0;
+}
+.featured-overlay {
+	position: relative;
+	margin-top: -500px;
+	top: 0px;
+	left: 0px;
+    height: 500px;
+    width: 100%;
+    background-image: url("../pics/bg2.jpg");
+    background-size: cover;
+    z-index: 2;
+    opacity: 0;
+}
+.featured-content {
+  @include transform(translate(-50%, -50%));
+  padding-top: 140px;
+  margin-bottom: 100px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+h1 {
+	font-size: 60px;
+	font-family: Helvetica;
+	font-weight: 800;
+}
+p b {
+	font-weight: 900;
+}
+div.quote {
+	text-align: center;
+	font-size: 26px;
+	font-family: Dosis;
+	line-height: 12px;
+}
+div.quote p.brandTitle {
+	padding-top: 43px;
+	letter-spacing: 0px;
+}
+div.quote b {
+	font-weight: 700;
+}
+div.quote img {
+	width: 15%;
+}
+div.quote h5 {
+	font-size: 15px;
+	font-family: "Palatino Linotype";
+}
+div.quote p.brandContent {
+	padding: 0px;
+	margin: 15px 10%;
+}
+div#history {
+	padding: 5% 15%;
+	font-size: 18px;
+	line-height: 20px;
+	font-family: "Palatino Linotype"
+}
+div#history b {
+	letter-spacing: 0.2px;
+}
+div.separator {
+	height: 10px;
+	margin-bottom: 10%;
+}
+a.tooltips {
+	padding-top: 5px;
+	text-decoration: none;
+	color: #202020;
+	font-size: 18px;
+}
+a.tooltips:hover {
+	color: #43aaa3;
+}
+div#values {
+	position: relative;
+	background-color: #ededed;
+	text-align: center;
+}
+div#values div#valuesCarousel {
+	padding-top: 40px;
+}
+div.carousel-caption {
+	color: black;
+}
+div.carousel-inner {
+	margin: 0px auto;
+	text-align: center;
+	width: 50%;
+	height: 300px;
+}
+.carousel-control {
+	color: black;
+}
+div.carousel-inner h1 {
+	font-size: 70px;
+	font-family: "Old Standard TT";
+	color: #43aaa3
+}
+div.carousel-inner h3 {
+	font-size: 13px;
+	font-family: Helvetica;
+	margin: 0px;
+}
+a.left.carousel-control, a.right.carousel-control {
+	background-image: none;
+}
+ol.carousel-indicators li:hover {
+  color: #43aaa3
+}
+#businessContent {
+	padding: 0px 40px;
+	text-align: left;
+}
+#business {
+	background-color: #ededed;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+div#business div.separator {
+	margin-bottom: 5%;
+}
+.description {
+	color: #333;
+	background-color: #ededed;
+	font-size: 12px;
+	padding: 0px 5px;
+}
+div.description h4 {
+	font-weight: 800;
+	letter-spacing: -1px;
+}
+div#businessContent div.description div.divy {
+	height: 3px;
+	width: 15%;
+	margin-bottom: 15px;
+	margin-top: -5px;
+}
+div.divy#chemdiv {
+	background-color: #CFE291;
+}
+div.divy#gendiv {
+	background-color: #7BC794;
+}
+div.divy#gasdiv {
+	background-color: #00AC95;
+}
+div.divy#marinediv {
+	background-color: #00685E;
+}
+div.divy#labdiv {
+	background-color: #00597F;
+}
+div.divy#medicaldiv {
+	background-color: #002E49;
+}
+.clear {
+	clear: both;
+}
+#graph {
+	margin-top: -12%;
+	width: 100%;
+}
+div#graph img#goat {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	opacity: 0;
+}
+div#graph img {
+	width: 100%;
+	opacity: 0.8;
+}
+#chem {
+	position: absolute;
+	z-index: 1;
+}
+#gen {
+	position: absolute;
+	z-index: 2;
+}
+#gas {
+	position: absolute;
+	z-index: 3;
+}
+#marine {
+	position: absolute;
+	z-index: 6; 
+}
+#lab {
+	position: absolute;
+	z-index: 5;
+}
+#medical {
+	position: relative;
+	z-index: 4;
+}
+.search {
+	position: absolute;
+	height: 90px;
+	width: 100%;
+	background-color: white;
+	margin: 0px auto;
+	text-align: center;
+	padding: 20px 0;
+}
+.searchbox {
+	text-align: center;
+	padding: 10px 30px;
+	background-color: black;
+	font-size: 16px;
+	color: white ; /**color of blinking text cursor**/
+	border-radius: 0.5px solid white;
+	width: 300px;
+	height: 35px;
+	opacity: 0.9;
+	border-radius: 20px;
+	border: 0px solid black;
+	outline: none;
+	text-decoration: none;
+}
+.search p {
+	font-size: 13px;
+	color: grey;
+	margin: 3px auto;
+}
+.search .glyphicon.glyphicon-search {
+	left: 28px;
+	z-index: 3;
+}
+.white {
+	color: white;
+}
+
+.brandLists {
+	/*display: inline-block;*/
+	text-align: center;
+	float: none;
+	margin: 90px auto;
+	height: auto;
+	padding: 0px 7%;
+}
+div#byBrands ul {
+	position: static;
+	margin-left: auto;
+	margin-right: auto;
+	height:auto;
+	margin-bottom: 0px;
+	border: 0px;
+	opacity: 0.6;
+}
+div span{
+	opacity: 0.6;
+}
+div#byBrands ul:hover, div span:hover {
+	opacity: 1.0;
+}
+.brandTitle {
+	text-align: center;
+	position: relative;
+	margin: 0px auto;
+	padding-top: 100px;
+	font-size: 25px;
+	font-weight: 400;
+	font-family: Dosis;
+}
+.brandContent {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Palatino Linotype";
+	margin-top: -5px;
+}
+.invisible {
+	display: none;
+}
+.popover, .popover-content, .popover-title {
+	background-color: black;
+	color: white;
+	border: 0px;
+	opacity: 0.8;
+}
+.popover-title {
+	height: 40px;
+}
+ul a p {
+	width: 170px;
+    height: 170px;
+}
+span a p {
+	width: 170px;
+    height: 170px;
+}
+p.norchem {
+    background: url("../pics/sprites.png") 0 0;
+}
+p.bechem {
+    background: url("../pics/sprites.png") -170px 0px;
+}
+p.biosolve {
+    background: url("../pics/sprites.png") -340px 0px;
+}
+p.devcon {
+    background: url("../pics/sprites.png") -510px 0px;
+}
+p.lps {
+    background: url("../pics/sprites.png") -680px 0px;
+}
+p.merck {
+    background: url("../pics/sprites.png") -850px 0px;
+}
+p.permatex {
+    background: url("../pics/sprites.png") -1020px 0px;
+}
+p.rochem {
+    background: url("../pics/sprites.png") -1190px 0px;
+}
+p.angusfire {
+    background: url("../pics/sprites.png") -1360px 0px;
+}
+p.she {
+    background: url("../pics/sprites.png") -1530px 0px;
+}
+p.knowsley {
+    background: url("../pics/sprites.png") 0 -170px;
+}
+p.karcher {
+    background: url("../pics/sprites.png") -170px -170px;
+}
+p.worksafe {
+    background: url("../pics/sprites.png") -340px -170px;
+}
+p.proto {
+    background: url("../pics/sprites.png") -510px -170px;
+}
+p.enerpac {
+    background: url("../pics/sprites.png") -680px -170px;
+}
+p.hydratight {
+    background: url("../pics/sprites.png") -850px -170px;
+}
+p.simco {
+    background: url("../pics/sprites.png") -1020px -170px;
+}
+p.klinger {
+    background: url("../pics/sprites.png") -1190px -170px;
+}
+p.eversafe {
+    background: url("../pics/sprites.png") -1360px -170px;
+}
+p.ampco {
+    background: url("../pics/sprites.png") -1530px -170px;
+}
+p.loctite {
+    background: url("../pics/sprites.png") 0px -340px;
+}
+p.topsafe {
+    background: url("../pics/sprites.png") -170px -340px;
+}
+p.densin {
+    background: url("../pics/sprites.png") -340px -340px;
+}
+p.eriks {
+    background: url("../pics/sprites.png") -510px -340px;
+}
+p.hawke {
+    background: url("../pics/sprites.png") -680px -340px;
+}
+p.respirex {
+    background: url("../pics/sprites.png") -8500px -340px;
+}
+p.abloy {
+    background: url("../pics/sprites.png") -1020px -340px;
+}
+p.crosby {
+    background: url("../pics/sprites.png") -1190px -340px;
+}
+p.rs {
+    background: url("../pics/sprites.png") -1360px -340px;
+}
+p.linde {
+    background: url("../pics/sprites.png") -1530px -340px;
+}
+p.electrothermal {
+    background: url("../pics/sprites.png") 0px -510px;
+}
+p.fisher {
+    background: url("../pics/sprites.png") -170px -510px;
+}
+p.fisons {
+    background: url("../pics/sprites.png") -340px -510px;
+}
+p.hamo {
+    background: url("../pics/sprites.png") -510px -510px;
+}
+p.herzog {
+    background: url("../pics/sprites.png") -680px -510px;
+}
+p.horiba {
+    background: url("../pics/sprites.png") -850px -510px;
+}
+p.mitsubishi {
+    background: url("../pics/sprites.png") -1020px -510px;
+}
+p.hach {
+    background: url("../pics/sprites.png") -1190px -510px;
+}
+p.petrotest {
+    background: url("../pics/sprites.png") -1360px -510px;
+}
+p.retsch {
+    background: url("../pics/sprites.png") -1530px -510px;
+}
+p.shaw {
+    background: url("../pics/sprites.png") 0px -680px;
+}
+p.shimadzu {
+    background: url("../pics/sprites.png") -170px -680px;
+}
+p.seta {
+    background: url("../pics/sprites.png") -340px -680px;
+}
+p.ge {
+    background: url("../pics/sprites.png") -510px -680px;
+}
+p.pyrex {
+    background: url("../pics/sprites.png") -680px -680px;
+}
+p.ferno {
+    background: url("../pics/sprites.png") -850px -680px;
+}
+p.agilent {
+    background: url("../pics/sprites.png") -1020px -680px;
+}
+p.jencons {
+    background: url("../pics/sprites.png") -1190px -680px;
+}
+p.lsp {
+    background: url("../pics/sprites.png") -1360px -680px;
+}
+p.others {
+    background: url("../pics/sprites.png") -1530px -680px;
+}
+div.contact {
+	text-align: center;
+	background-color: #ededed;
+}
+div.contact p.cont {
+	color: #43aaa3;
+	font-size: 14px;
+	margin: 0px;
+}
+div.contact p.cont2 {
+	color: #43aaa3;
+	font-size: 30px;
+	font-family: Dosis;
+	letter-spacing: 1px;
+	padding-bottom: 60px;
+	margin-bottom: 0px;
+}
+div.contact h3 {
+	font-family: Dosis;
+	font-size: 40px;
+}
+div.contact img {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	opacity: 0.5;
+	width: 6%;
+	height: 6%;
+}
+div#map_canvas {
+	width: 100%;
+	height: 350px;
+}
+div.contact a.tooltips {
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

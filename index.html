@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Talli Utama Sdn. Bhd.</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
+    <link rel="stylesheet" href="css/stylesheet.css"  type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.lightbox.css"  type="text/css"/>
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/reveal.css">
+    <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/jquery.quicksearch.js"></script>
+    <script src="js/jquery.reveal.js"></script>
+    <script src="js/functions.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#pr').on('click', function(e){
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: $("#product").offset().top
+          }, 800);
+        })
+        $('#co').on('click', function(e){
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: $("#company").offset().top
+          }, 800);
+        })
+        $('#ca').on('click', function(e){
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+          }, 800);
+        })
+        $('#tu').on('click', function(e){
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: $("#talliutama").offset().top
+          }, 800);
+        })
+      })
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="col-xs-3 col-md-4">
+          <img src="pics/logo.svg">
+          <a id="tu" href="#talliutama"><b>TALLI UTAMA</b></a>
+        </div>
+        <div class="col-xs-3 col-md-2 col-md-offset-2" id="products">
+          <a href="#product" class="#" id="pr">PRODUCTS</a>
+        </div>
+        <div class="col-xs-3 col-md-2">
+          <a href="#company" class="#" id="co">COMPANY</a>
+        </div>
+        <div class="col-xs-3 col-md-2">
+          <a href="#contact" class="#" id="ca">CONTACT</a>
+        </div>
+      </div> <!--Header End-->
+      <div class="featured">
+        <a id="talliutama"></a>
+        <div class="featured-bg"> 
+          <div class="featured-content">
+            <h1>Great Products, <p>Excellent Deliveries, <p>Happy Customers</h1>
+          </div>  
+        </div> 
+        <div class="featured-overlay"></div>
+      </div> <!--Featured End-->
+      <div class="quote" id="company">
+        <p class="brandTitle"> WHO WE ARE </p>
+        <p class="brandContent"><em>A  <b>Supplies & Trading</b>  company based in Miri, Sarawak. </em></p>
+        <br>
+        <br>
+        <img src="pics/logo.svg">
+        <br>
+        <div id="history">
+          <p> We began operation in 1996, marketing full range scientific and laboratory apparatus for oil and gas and government agencies. Since then, our company has expanded our supplies to include specialized materials, marine equipments, industrial chemicals, calibration gases and many more. </p>
+          <br>
+          <p> We have a proven track record in providing the highest quality and safe products and services to our clients as we place great emphasis on adding value to the industry by ensuring that our products and services are reliable and safe.</p>
+          <br>
+          <br>
+          <p><b>Talli Utama Sdn. Bhd. is a bumiputera status company<br> registered and qualified by Petronas and other government agencies.</b></p>
+          <div class="separator"></div>
+          <a href="mailto:talliutama@gmail.com" class="tooltips" data-container="body" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-original-title="Email Us">
+            <span class="glyphicon glyphicon-comment"></span>
+          </a>
+        </div> 
+      </div><!--Quote End-->
+      <div id="values">
+        <p class="brandTitle"> VISION, MISSION & VALUES </p>
+        <p class="brandContent"><em>At Talli Utama, we rely on these set of rules to govern and grow our business.</em></p>
+        <div id="valuesCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#valuesCarousel" data-slide-to="0" class="active">1</li>
+            <li data-target="#valuesCarousel" data-slide-to="1">2</li>
+            <li data-target="#valuesCarousel" data-slide-to="2">3</li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <h1><em>Vision</em></h1>
+              <h3>To be the preferred supplier and service provider </h3>
+              <h3>both in oil & gas and petro chemical industries in Malaysia</h3>
+            </div>
+            <div class="item">
+              <h1><em>Mission</em></h1>
+              <h3>￼Achieve 100% on time delivery & best product quality </h3>
+              <h3>to meet the needs of clients everywhere.</h3>
+            </div>
+            <div class="item">
+              <h1><em>Core Values</em></h1>
+              <h3>Safety  Integrity  Commitment  Accountability</h3>
+            </div>
+            
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#valuesCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#valuesCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div> <!-- Values end -->
+      <div id="business">
+        <p class="brandTitle"> BUSINESS CATEGORIES </p>
+        <p class="brandContent"><em>We act as the sole exclusive agent for some major principals in the <b>Oil&Gas industry</b> <br>and are happy to build relations with more companies in the years to come.</em></p>
+        <div id="graph">
+          <img id="goat" src="pics/chem.svg">
+          <img id="chem" src="pics/chem.svg">
+          <img id="gen" src="pics/gen.svg">
+          <img id="gas" src="pics/gas.svg">
+          <img id="marine" src="pics/marine.svg">
+          <img id="lab" src="pics/lab.svg">
+          <img id="medical" src="pics/medical.svg">
+        </div>
+        <div id="businessContent">
+          <ul class="col-md-2 col-sm-3 col-xs-6">
+            <div class="description" id="c1">
+              <h4>Chemicals</h4>
+              <div class="divy" id="chemdiv"></div>
+              <p>We are the exclusive agents for the <b>NORCHEM</b> line of chemicals: quality controlled chemical cleaners suited for offshore rigs, industrial and oil refineries.   We also supply other chemical and reagent ranges. </p>
+            </div>
+          </ul>
+          <ul class="col-md-2 col-sm-3 col-xs-6">
+            <div class="description">
+              <h4>General Materials</h4>
+              <div class="divy" id="gendiv"></div>
+              <p>Safety Equipments, Instrumentations, Fire Extinguishers, O-rings, Flanges, Stud Bolts & Nuts, Valves, Body Harness, Hand Tools, Gauges, Gaskets, </p>
+            </div>
+          </ul>
+          <ul class="col-md-2 col-sm-3 col-xs-6">
+            <div class="description">
+              <h4>Industrial Gases</h4>
+              <div class="divy" id="gasdiv"></div>
+              <p>Our Gases come complete with <b> COA/ COC </b> be it Calibration Gases, Purified Gases, Reference Gases or Industrial Gases.</p>
+            </div>
+          </ul>
+          <ul class="col-md-2 col-sm-3 col-xs-6">
+            <div class="description">
+              <h4>Marine Equips.</h4>
+              <div class="divy" id="marinediv"></div>
+              <p>Customers look for us to supply a range of marine equipment and accessories from wire ropes, mooring ropes, shackles, rope slings, scramble nets to life rafts, chains or anchors.</p>
+            </div>
+          </ul>
+          <ul class="col-md-2 col-sm-3 col-xs-6">
+            <div class="description">
+              <h4>Lab Supplies</h4>
+              <div class="divy" id="labdiv"></div>
+              <p>Equipments ranging from deionizers, microscopes, particle sieves, analyzers, titrators, GC, moisture analyzers, heating mantles to glasswares, ovens, and washers.</p>
+            </div>
+          </ul>
+          <ul class="col-md-2 col-sm-3 col-xs-6">
+            <div class="description">
+              <h4>Medical Equips.</h4>
+              <div class="divy" id="medicaldiv"></div>
+              <p>We know where to get the best Stretches, EEG machines, Cooling/ Heating Circulators, Examination apparatus, Resuscitation equipments and etc.</p>
+            </div>
+          </ul>
+        </div>
+        <br class="clear"/>
+        <div class="separator"></div>
+        <a href="mailto:talliutama@gmail.com" class="tooltips" data-container="body" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-original-title="Email Us">
+            <span class="glyphicon glyphicon-comment"></span>
+        </a>
+        <a name="product" id="product"></a>  
+      </div> <!--Business categories End-->
+      <p class="brandTitle"> <b>BRANDS</b> & <b>NAMES</b> </p>
+      <p class="brandContent"><em>We supply the best quality products originating from all over the world.</em></p>
+      <div class="search">
+        <form class="searchbox2" action=" ">
+          <span class="glyphicon glyphicon-search white"></span>
+          <input class="searchbox" id="searchbar" type="search" placeholder="Search Products"/>
+          <p><em>Type to search</em></p>
+        </form>
+      </div> <!--Search End-->
+      <div class="brandLists" id="byBrands">
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>NORCHEM (Norway)</b>" data-content="AS666 Degreaser<br> Electric Cleaner<br> DA236 Descaling Acid<br>Carbon Remover<br>Oil Spill Dispersant<br>Demulsifier/ Emulsifiers<br>O2 & H2 Scavengers<br>Oil Spill Respond Kit ">
+            <p class="norchem"></p>
+            <span class="invisible">Norway Maintenance chemicals, fuel oil treatment, oil spill, specialty grease, oxygen hygrogen sulphide scavenger demulsifier emulsifier norchem</span>
+          </a>
+        </ul>
+       <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>BECHEM</b>" data-content="High Temperature Lube<br>Multipurpose Grease">
+            <p class="bechem"></p>
+            <span class="invisible">bechem high temp lube multipurpose grease </span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>BIOSOLVE (USA)</b> " data-content="Hydrocarbon Liquid Degreaser<br>(Water Based Detergent) ">
+            <p class="biosolve"></p>
+            <span class="invisible">USA biosolve hydrocarbon liquid degreaser detergent water base</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>DEVCON</b>" data-content="Putty ">
+            <p class="devcon"></p>
+            <span class="invisible">devcon putty </span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>LPS</b>" data-content="Lubricants<br>Penetrants ">
+            <p class="lps"></p>
+            <span class="invisible">lps lubricants penetrants</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>MERCK & BDH</b>" data-content="Laboratory Chemicals<br>Detergents">
+            <p class="merck"></p>
+            <span class="invisible">merck laboratory chemical detergent</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>PERMATEX FAST ORANGE</b>" data-content="Hand Cleaner ">
+            <p class="permatex"></p>
+            <span class="invisible">permatex hand cleaner </span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>ROCHEM FYREWASH</b>" data-content="Online and Offline Compressor Turbine Cleaning Systems and Chemicals ">
+            <p class="rochem"></p>
+            <span class="invisible">India rochem compressor turbine cleaning systems</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>ANGUS</b>" data-content="Foams ">
+            <p class="angusfire"></p>
+            <span class="invisible">angusfire foam</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>SENG HENG (SG)</b> " data-content="Stud Bolts<br>Hex Bolts<br>Nuts ">
+            <p class="she"></p>
+            <span class="invisible">singapore sg seng heng engineering stud bolt nuts</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>KNOWSLEY</b>" data-content="Fire Hydrant Valves">
+            <p class="knowsley"></p>
+            <span class="invisible">knowsley fire hydrant valve</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>KARCHER (GER)</b>" data-content="Spare parts and Accessories">
+            <p class="karcher"></p>
+            <span class="invisible">germany karcherspare parts accessories</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>WORK-SAFE</b>" data-content="Body Harness">
+            <p class="worksafe"></p>
+            <span class="invisible">worksafe body harness safety</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>PROTO</b>" data-content="All Hand Tools ">
+            <p class="proto"></p>
+            <span class="invisible">proto hand tools screw diver wrench pliers</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>ENERPAC</b>" data-content="Hydraulic Tools">
+            <p class="enerpac"></p>
+            <span class="invisible">enerpac hydraulic tools</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>HYDRATIGHT</b>" data-content="Torque Tightener">
+            <p class="hydratight"></p>
+            <span class="invisible">hydratight torque tightener</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>SIMCO</b>" data-content="Liquid Level Gauges<br>Valves">
+            <p class="simco"></p>
+            <span class="invisible">simco liquid level gauge valve</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>KLINGER</b>" data-content="Gaskets<br>Valves">
+            <p class="klinger"></p>
+            <span class="invisible">klinger gasket valve</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>EVERSAFE</b>" data-content="Fire Extinguisher">
+            <p class="eversafe"></p>
+            <span class="invisible">eversafe fire extinguisher</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>AMPCO</b>" data-content="Non-Sparking Tools">
+            <p class="ampco"></p>
+            <span class="invisible">ampco non sparking tool</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>LOCTITE<br<DOW_CORNING</b>" data-content="Sealants">
+            <p class="loctite"></p>
+            <span class="invisible">loctite sealant</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>TOPSAFE</b>" data-content="Safety Shoes<br>Safety Boots">
+            <p class="topsafe"></p>
+            <span class="invisible">topsafe safety shoe boot</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>DENSIN</b>" data-content="High Pressure Cleaner ">
+            <p class="densin"></p>
+            <span class="invisible">densin high pressure cleaner</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>ERIKS</b>" data-content="Precision O-Ring<br>Fluid Sealants">
+            <p class="eriks"></p>
+            <span class="invisible">eriks precision o-ring o ring fluid sealant</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>HAWKE</b>" data-content="Explosion/ Flame Proof Electrical Fittings">
+            <p class="hawke"></p>
+            <span class="invisible">hawke explosion flame proof electrical fittings</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>RESPIREX</b>" data-content="Personal Protective Equipments<br>Respiratory Equipments ">
+            <p class="respirex"></p>
+            <span class="invisible">respirex personal protective respiratory </span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>ABLOY</b>" data-content="Security Locks ">
+            <p class="abloy"></p>
+            <span class="invisible">abloy security lock</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>CROSBY</b>" data-content="Shackles<br>Chain Blocks">
+            <p class="crosby"></p>
+            <span class="invisible">crosby shackles chain block</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>RS COMPONENTS</b> " data-content="RS Components and spare parts">
+            <p class="rs"></p>
+            <span class="invisible">rs components spare parts</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>LINDE (GER)</b>" data-content="Calibration Gases<br>Purified Gases<br>Reference Gases<br>Industrial Gases">
+            <p class="linde"></p>
+            <span class="invisible">Germany linde purified reference industrial gas cylinders oxygen calibration</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>ELECTROTHERMAL(UK)</b>" data-content="Heating Mantles">
+            <p class="electrothermal"></p>
+            <span class="invisible">UK electrothermal heating mantle</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>FISCHER SCIENTIFIC</b>" data-content="Laboratory Supplies<br>">
+            <p class="fisher"></p>
+            <span class="invisible">fishcer scientific laboratory equipments supplies</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>FISONS</b>" data-content="Scientific & Lab Equipments">
+            <p class="fisons"></p>
+            <span class="invisible">fison fisons laboratory equipment lab scientific</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>HAMO</b>" data-content="Automatic washer for cleaning, disinfecting and cleaning">
+            <p class="hamo"></p>
+            <span class="invisible">hamo automatic washer cleaning disinfect drying</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>HERZOG</b>" data-content="Scientific and Lab Equipments">
+            <p class="herzog"></p>
+            <span class="invisible">herzog scientific lab laboratory equipment</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>HORIBA</b>" data-content="Oil content analyzer<br>Moisture meter<br>Testing Equipment">
+            <p class="horiba"></p>
+            <span class="invisible">horiba japan oil content analyzer moisture meter testing equipment</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>MITSUBISHI</b>" data-content="Moisture Analyzer ">
+            <p class="mitsubishi"></p>
+            <span class="invisible">japan mitsubishi moisture analyzer</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>HACH<br>ORBISPHERE</b>" data-content="Gas Testing Meters">
+            <p class="hach"></p>
+            <span class="invisible">hach oxygen o2 gas testing meters</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>PETROTEST</b>" data-content="Petroleum Testing Equipment ">
+            <p class="petrotest"></p>
+            <span class="invisible">petrotest petroleum testing equipment</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>RETSCH GmBH</b>" data-content="Particle Measurement and Grinder">
+            <p class="retsch"></p>
+            <span class="invisible">germany retsch particle measurement grinder</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>SHAW</b> " data-content="Moisture Analyzer">
+            <p class="shaw"></p>
+            <span class="invisible">shaw moisture analyzer</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>SHIMADZE (JP)</b>" data-content="Spectrophotometer<br>Gas Chromatography">
+            <p class="shimadzu"></p>
+            <span class="invisible">shimadzu japan spectrophotometer gc</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>STANHOPE-SETA</b>" data-content="Quality Control Equipment">
+            <p class="seta"></p>
+            <span class="invisible">seta stanhope quality control equipment</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>WHATMAN (UK)</b>" data-content="Laboratory Filtration">
+            <p class="ge"></p>
+            <span class="invisible">UK ge healthcare life sciences whatman filter paper laboratory filtration </span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>PYREX, IWAKI (JP)</b>" data-content="Glassware">
+            <p class="pyrex"></p>
+            <span class="invisible">japan iwaki pyrex glass ware heat resistant</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>FERNO (UK)</b> " data-content="Stretcher ">
+            <p class="ferno"></p>
+            <span class="invisible">ferno stretcher UK</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>J&W/ AGILENT</b>" data-content="Capillary Columns">
+            <p class="agilent"></p>
+            <span class="invisible">j & w capillary columns agilent technologies</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<B>JENCONS (UK)</B> " data-content="Liquid Handling<br>Laboratory Products ">
+            <p class="jencons"></p>
+            <span class="invisible">UK jencons liquid handling laboratory lab product</span>
+          </a>
+        </ul>
+        <ul class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>LSP (USA)</b> " data-content="Resuscitation and Oxygen Equipments">
+            <p class="lsp"></p>
+            <span class="invisible">lsp resuscitation oxygen USA</span>
+          </a>
+        </ul>
+        <span class="col-md-2 col-sm-3 col-xs-6">
+          <a class="popovers" href="#" data-original-title="<b>OTHERS</b>" data-content="<b>Chemical Products</b><br>Acidizing Chemicals, Drilling Chemicals, Industrial/ Oil Field Chemicals, Production and Water Treatment<br><br><b>General Materials</b><br>Line Pipes, Beam, Steel Plates, Iron Brs, Iron Rods, DBB Valves, Heat Exchanger Tubes, Fire/ Gas Detectors, Pipe Fittings, Ball Valves, Check Valves, Globe Valves<br><br><b>Marine Equipment</b><br>Wire ropes, hoses, Nozzles, mooring ropes, Shackles, Chain Blocks, Anchors, Wire Rope Slings, Life Rafts, Escape Ropes, Scramble Nets<br><br><b>Scientific Instruments</b><br>Tintometer">
+            <p class="others"></p>
+            <span class="invisible">others </span>
+          </a>
+        </span>
+        <br class="clear"/>
+        <div class="separator"></div>
+        <a href="mailto:talliutama@gmail.com" class="tooltips" data-container="body" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-original-title="Email Us">
+            <span class="glyphicon glyphicon-comment"></span>
+        </a>
+      <!--Add attributes to a to make popovers on hover -->
+      <script>
+        var num = jQuery('div#byBrands').children('ul').length;
+        var x1 = document.getElementById('byBrands');
+        var x = x1.getElementsByTagName("a");
+
+        for (var i = 0; i <= num; i++) {
+          x[i].setAttribute("data-html", "true");
+          x[i].setAttribute("data-container", "body");
+          x[i].setAttribute("data-toggle", "popover");
+          x[i].setAttribute("data-trigger", "hover");
+          x[i].setAttribute("data-placement", "top");
+          x[i].setAttribute("href", "mailto:talliutama@gmail.com");
+        };
+      </script>        
+      </div> <!--Brandlist End-->
+      <div class="contact">
+        <div>
+          <a id="contact"></a>
+          <p class="brandTitle"> <b>CONTACT</b>US </p>
+          <p class="brandContent"><em>Lets collaborate and start something together.</em></p>
+          <br>
+          <p class="cont"><b>Phone</b> 085-657191/ 657139</p>
+          <p class="cont"><b>Fax</b> +6 085-657137</p>
+          <a href="mailto:talliutama@gmail.com" class="tooltips" data-container="body" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" data-original-title="talliutama@gmail.com">
+            <span class="glyphicon glyphicon-comment"></span>
+        </a>
+          <br>
+          <br>
+          <img src="pics/icon_5624.svg">
+          <p class="cont2">Lot 1546, Piasau Jaya Industrial Estate,<br> 98000 Miri, Sarawak, Malaysia</p>
+        </div>
+      </div>
+      <div id="map_canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15911.375158344144!2d114.00868599999998!3d4.4401639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMjYnMjQuNiJOIDExNMKwMDAnMzEuMyJF!5e0!3m2!1sen!2s!4v1403403548326" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+      </div>
+    </div> <!--Wrapper End-->
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
