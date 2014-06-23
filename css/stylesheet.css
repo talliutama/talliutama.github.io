@@ -81,16 +81,16 @@ div.header div.col-md-4.col-xs-3 a:hover {
 }
 .featured-content {
   @include transform(translate(-50%, -50%));
-  padding-top: 140px;
+  padding-top: 170px;
   margin-bottom: 100px;
   color: white;
   text-align: center;
   z-index: 1;
 }
 h1 {
-	font-size: 60px;
+	font-size: 30px;
 	font-family: Helvetica;
-	font-weight: 800;
+	font-weight: 700;
 }
 p b {
 	font-weight: 900;
