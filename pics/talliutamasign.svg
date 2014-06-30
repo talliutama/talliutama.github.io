@@ -4,11 +4,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="631px" height="150px" viewBox="0 0 631 150" enable-background="new 0 0 631 150" xml:space="preserve">
 <g id="Layer_1_1_">
-	<polygon fill="#CE0202" points="71.138,35.324 40.747,80.467 62.736,72.666 62.736,99.74 37.529,99.74 37.464,85.478 
-		18.391,114.676 71.138,114.676 	"/>
-	<polygon fill="#0C00AF" points="71.121,35.324 95.733,73.584 80.457,67.999 80.457,81.068 89.326,81.068 93.06,92.738 
-		80.923,92.738 80.923,102.541 100.528,102.541 101.236,82.827 122,114.676 71.121,114.676 	"/>
+	<polygon fill="#CE0202" points="60.138,35.324 29.747,80.467 51.736,72.666 51.736,99.74 26.529,99.74 26.464,85.479 
+		7.391,114.676 60.138,114.676 	"/>
+	<polygon fill="#0C00AF" points="60.121,35.324 84.733,73.584 69.457,67.999 69.457,81.068 78.326,81.068 82.06,92.738 
+		69.923,92.738 69.923,102.541 89.528,102.541 90.236,82.827 111,114.676 60.121,114.676 	"/>
 </g>
-<rect x="138" y="43" fill="none" width="493" height="125"/>
-<text transform="matrix(1 0 0 1 138.0005 103.4248)" fill="#F9F9F9" font-family="'Baskerville'" font-size="90">Talli Utama</text>
+<rect x="127" y="43" fill="none" width="493" height="125"/>
+<text transform="matrix(1 0 0 1 121.0002 70.4248)" fill="#F2F2F2" font-family="'HelveticaNeue'" font-size="52">Talli Utama Sdn. Bhd.</text>
+<rect x="121" y="82.5" fill="none" width="579" height="73"/>
+<text transform="matrix(1 0 0 1 121.0002 95.3516)"><tspan x="0" y="0" fill="#F2F2F2" font-family="'HelveticaNeue'" font-size="18">Lot 1546, Piasau Industrial Estate, 98000 Miri, </tspan><tspan x="0" y="21.6" fill="#F2F2F2" font-family="'HelveticaNeue'" font-size="18">Sarawak, Malaysia.</tspan></text>
 </svg>

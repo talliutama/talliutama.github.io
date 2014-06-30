@@ -87,6 +87,9 @@ div.header div.col-md-4.col-xs-3 a:hover {
   text-align: center;
   z-index: 1;
 }
+div.featured div.featured-content img {
+	height: 180px;
+}
 h1 {
 	font-size: 30px;
 	font-family: Helvetica;
