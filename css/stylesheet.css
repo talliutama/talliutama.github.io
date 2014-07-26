@@ -228,6 +228,12 @@ div.divy#labdiv {
 div.divy#medicaldiv {
 	background-color: #002E49;
 }
+div.divy#spilldiv {
+	background-color: #547980;
+}
+div.divy#srpediv {
+	background-color: #594F4F;
+}
 .clear {
 	clear: both;
 }
@@ -372,7 +378,7 @@ p.norchem {
 p.bechem {
     background: url("../pics/sprites.png") -170px 0px;
 }
-p.biosolve {
+p.TIDC {
     background: url("../pics/sprites.png") -340px 0px;
 }
 p.devcon {
@@ -411,7 +417,7 @@ p.proto {
 p.enerpac {
     background: url("../pics/sprites.png") -680px -170px;
 }
-p.hydratight {
+p.Hi-Force {
     background: url("../pics/sprites.png") -850px -170px;
 }
 p.simco {
@@ -438,16 +444,16 @@ p.densin {
 p.eriks {
     background: url("../pics/sprites.png") -510px -340px;
 }
-p.hawke {
+p.enware {
     background: url("../pics/sprites.png") -680px -340px;
 }
 p.respirex {
     background: url("../pics/sprites.png") -8500px -340px;
 }
-p.abloy {
+p.dawg {
     background: url("../pics/sprites.png") -1020px -340px;
 }
-p.crosby {
+p.deb {
     background: url("../pics/sprites.png") -1190px -340px;
 }
 p.rs {
@@ -462,9 +468,11 @@ p.electrothermal {
 p.fisher {
     background: url("../pics/sprites.png") -170px -510px;
 }
+/**
 p.fisons {
     background: url("../pics/sprites.png") -340px -510px;
 }
+**/
 p.hamo {
     background: url("../pics/sprites.png") -510px -510px;
 }
@@ -495,9 +503,11 @@ p.shimadzu {
 p.seta {
     background: url("../pics/sprites.png") -340px -680px;
 }
+/**
 p.ge {
     background: url("../pics/sprites.png") -510px -680px;
 }
+**/
 p.pyrex {
     background: url("../pics/sprites.png") -680px -680px;
 }
